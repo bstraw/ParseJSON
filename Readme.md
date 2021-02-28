@@ -10,3 +10,5 @@ https://www.red-gate.com/simple-talk/sql/t-sql-programming/consuming-json-string
 Here is the latest version of the code. Hopefully it is up-to-date.I've updated it to run in a binary collation.
 
 If you have any fixes, please let mye know and I'll add them in.
+
+Updated to support parsing negative values 2/28/2021
