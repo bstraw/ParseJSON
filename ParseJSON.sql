@@ -73,10 +73,10 @@ Returns: >
 	    @end INT,--index of the end of the token that you are parsing
 	    @param INT,--the parameter at the end of the next Object/Array token
 	    @EndOfName INT,--the index of the start of the parameter at end of Object/Array token
-	    @token NVARCHAR(200),--either a string or object
+	    @token NVARCHAR(MAX),--either a string or object
 	    @value NVARCHAR(MAX), -- the value as a string
 	    @SequenceNo int, -- the sequence number within a list
-	    @Name NVARCHAR(200), --the Name as a string
+	    @Name NVARCHAR(MAX), --the Name as a string
 	    @Parent_ID INT,--the next parent ID to allocate
 	    @lenJSON INT,--the current length of the JSON String
 	    @characters NCHAR(36),--used to convert hex to decimal
